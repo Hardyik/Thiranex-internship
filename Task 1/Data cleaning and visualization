@@ -35,7 +35,7 @@ plt.show()
 
 # 7 data visualize
 # 1. Gender Distrubution
-plt.figure(figsize(6,4))
+plt.figure(figsize=(6,4))
 sns.countplot(x="Sex", data=df)
 plt.title('Gender distrubution')
 plt.show()
