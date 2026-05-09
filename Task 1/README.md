@@ -26,6 +26,7 @@ Different charts are created to understand the dataset better:
 
 <h4>Installation</h4>
 Install required libraries before running the project.
+
 ```bash
 pip install pandas matplotlib seaborn
 ```
