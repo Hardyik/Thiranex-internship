@@ -20,7 +20,7 @@ print(df.describe())
 # 4. Check for missing values
 print(df.isnull().sum())
 # Handling the missing values form dataset
-df['Age'].fillna(df['Age'].mean(), inplace=True)
+df['Age'] = df['Age'].fillna(df['Age'].mean())
 
 # 5. checking for duplicate rows
 print(df.duplicated().sum())
